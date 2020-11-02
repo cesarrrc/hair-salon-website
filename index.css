@@ -240,7 +240,7 @@ position: relative;
     padding-top: 20px;
     
   }
-  .container>h2  {
+  .container h2  {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
   }
