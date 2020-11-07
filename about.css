@@ -12,7 +12,6 @@ header  {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  color: white;
   text-decoration: none;
 }
 
@@ -53,6 +52,7 @@ h1  {
   font-size: 70px;
   font-family: 'Pacifico', cursive;
   text-align: center;
+  border-bottom: black 2px solid;
 
 }
 

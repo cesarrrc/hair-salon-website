@@ -1,0 +1,226 @@
+header  {
+  display: grid;
+  max-height: 160px;
+  margin: 0;
+  background-color: black;
+  grid-template-columns: repeat( 3, 1fr);
+
+}
+
+.nav-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+  align-items: center;
+}
+
+a  {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+
+}
+
+.head-logo  {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.head-logo img  {
+  background-color: blanchedalmond;
+  width: auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25%;
+  height: 120%;
+  justify-content: center;
+}
+
+body  {
+  margin: 8px;
+  text-align: center;
+}
+
+.main-title  {
+  /* margin-top: -25px; */
+  /* height: 350px; */
+  background-image: url(white-brick.jpg);
+  background-size: cover;
+  /* padding-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+h1  {
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+h2  {
+  font-family: 'Arimo', sans-serif;
+  padding-top: 0;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.content  {
+ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1;
+}
+
+label  {
+  display: block;
+}
+
+select  {
+  width: 150px;
+}
+
+input  {
+  width: 140px;
+  text-align: center;
+}
+
+.radio  {
+  display: flex;
+  width: 140px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea  {
+  width: 240px;
+  height: 40px;
+}
+
+.form  {
+  font-family: 'Arimo', sans-serif;
+  background-image: url(barber-chair.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+form>div  {
+  padding-bottom: 20pt;
+}
+
+form  {
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 400px;
+  margin: auto;
+  border-radius: 5%;
+  height: 500x;
+  color: antiquewhite;
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.section-2  {
+  background-image: url(barber-tools-bg2.jpg);
+  background-size: 150%;
+  background-position: center;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-title  {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.527);
+  place-items: center;
+  justify-content: center;
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 10%;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  font-weight: 100;
+  align-items: center;
+}
+
+ul  {
+  font-family: 'Pacifico', cursive;
+  padding-left: 0;
+  font-size: 30px;
+  
+  
+}
+
+li  {
+  font-family: 'Arimo', sans-serif;
+  list-style: none;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.contact-info  {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  margin: auto;
+
+}
+
+.email  {
+  grid-column: 2/3;
+  grid-row: 1;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 10%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.phone  {
+  grid-column: 1/3;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 10%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.address  {
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 10%;
+  margin: auto;
+  padding: 10px;
+  
+}
+p  {
+  margin: auto;
+  border-bottom: 1pt solid antiquewhite;
+  margin-bottom: 20px;
+}
+

@@ -20,7 +20,6 @@ header  {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  
   align-items: center;
 }
 
@@ -244,4 +243,81 @@ position: relative;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
   }
+}
+
+footer  {
+  background-color: black;
+}
+
+.foot-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+
+
+}
+
+.foot-nav  {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.store-hours  {
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h3  {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+table  {
+  font-family: 'Arimo', sans-serif;
+  width: 400px;
+}
+
+.logo-wrapper  {
+}
+
+.foot-logo  {
+  height: 40px;
+  align-items: ;
+}
+
+.foot-img  {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25%;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
+
+}
+
+.follow-us  {
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+.icons  {
+  display: flex;
+  justify-content: space-evenly;
 }

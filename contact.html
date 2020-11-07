@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page - Barbershop</title>
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  <header>
+    <nav class="nav-1">
+      <a href="index.html">Home</a><a href="about.html">About Us</a>
+    </nav>
+    <nav class="head-logo">
+      <img href="index.html" src="logo.png" alt="barbershop logo">
+    </nav>
+    <nav class="nav-2">
+      <a href="contact.html">Contact Us</a><a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+    <main>
+      
+      <article class="main-title">
+        <h1> Contact us</h1>
+        <h2>Set an appointment or ask us anything, we would love to hear from you.</h2>
+      </article>
+      
+      <section class="content">
+        
+        <div class="form">
+          <form action="results.html" method="GET">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" name="Name" id="Name" required placeholder="First Last" required>
+            </div>
+            <div>
+              <label for="phone">Phone Number:</label>
+              <input type="phone" name="phone" id="phone" required placeholder="Phone Number">
+            </div>
+            <div>  
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <!-- <div>
+              <label for="age">age</label>
+              <input type="number" name="age" id="age" min="3" max="140" placeholder="how old are you">
+            </div> -->
+            <!-- <div>
+              <label for="date">birthdate</label>
+              <input type="date" name="date" id="date" placeholder="birthday" min="01/01/1900">
+            </div> -->
+            <div>
+              <label for="barber">Specific Barber?</label>
+              <select>
+                <option value="Who would you like to request?" disabled selected></option>
+                <option label="Shaun White" value="Shaun White">Shaun White</option>
+                <option label="Zach Black" value="Zach Black">Zach Black</option>
+                <option label="Juan Pinto" value="Juan Pinto">Juan Pinto</option>
+                
+              </select>
+            </div>
+            <div>
+              <div>
+                How would you like to be contacted back?  
+              </div>
+              <div class="radio">
+                <label for="email">Email</label>
+                <input type="radio" name="yes">
+                <label for="phone">Phone</label>
+                <input type="radio" name="no">
+              </div>
+            </div>
+            <div>
+              <label for="Appointment Details or Questions/Comments">Appointment Details or Questions/Comments</label>
+              <br>
+              <textarea id="questions or comments" name="questions or comments" min="5" max="500"></textarea>
+            </div>
+            <!-- <div>
+              <label for="password">password</label>
+              <input type="password" name="password" id="password" placeholder="password" required>
+            </div> -->
+            
+            <button type="reset"> reset</button>
+            <button type="submit">submit</button>
+          </form>
+        </div>
+        
+        <div class="section-2">
+      
+          <h2 class="info-title">Need to get a hold of us?</h2>
+          <div class="contact-info">
+           
+            <ul class="address">
+              <p> Address </p>              <li>3696 Triangle Way</li>
+              <li>Ste 2</li>
+              <li>San Marcos, TX</li>
+              <li>78666</li>
+            </ul>
+        
+            <ul class="phone">
+              <p> Phone </p>
+              <li>512-369-6363</li>
+            </ul>
+          
+            <ul class="email">
+              <p> Email </p>
+              <li>storeemail@barbershop.com</li>
+              <li>shaunwhite@barbershop.com</li>
+              <li>zackblack@barbershop.com</li>
+              <li>juanpinto@barbershop.com</li>
+            </ul>  
+          
+          </div>   
+        </div>
+      
+      </section>
+      <footer>
+        
+      </footer>
+    </main>
+  
+</body>
+</html>
