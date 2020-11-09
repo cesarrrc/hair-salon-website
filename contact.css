@@ -451,57 +451,58 @@ table  {
   .section-2 li  {
     font-size: 14px;
   }
+  
+  .foot-container  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-nav  {
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  table  {
+    width: 370px;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  .store-hours  {
+    margin-top: 0;
+  }
+  
+  .logo-wrapper  {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .foot-logo  {
+    height: 20px;
+    padding-right: 20px;
+      }
+  
+  .foot-img  {
+    height: 140px;
+    display: flex;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25%;
+    position: relative;
+    justify-content: flex-end;
+    bottom: 50px;
+  }
+  
+  .foot-nav a  {
+    padding: 0px;
+  }
 }
 
-.foot-container  {
-  display: flex;
-  flex-direction: column;
-}
-
-.foot-nav  {
-  flex-direction: column;
-  padding-left: 30px;
-  margin-top: 0px;
-  text-align: left;
-}
-
-table  {
-  width: 370px;
-  justify-content: flex-start;
-  text-align: left;
-  padding-left: 15px;
-}
-
-.store-hours  {
-  margin-top: 0;
-}
-
-.logo-wrapper  {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.foot-logo  {
-  height: 20px;
-  padding-right: 20px;
-    }
-
-.foot-img  {
-  height: 140px;
-  display: flex;
-  margin: auto;
-  background-color: blanchedalmond;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 25%;
-  position: relative;
-  justify-content: flex-end;
-  bottom: 50px;
-}
-
-.foot-nav a  {
-  padding: 0px;
-}
 
