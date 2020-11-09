@@ -191,7 +191,79 @@ h1  {
 
 
 
+footer  {
+  background-color: black;
+}
 
+.foot-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+
+
+}
+
+.foot-nav  {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.store-hours  {
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h3  {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+table  {
+  font-family: 'Arimo', sans-serif;
+  width: 400px;
+}
+
+.foot-logo  {
+  height: 40px;
+  align-items: ;
+}
+
+.foot-img  {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25%;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
+
+}
+
+.follow-us  {
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+.icons  {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 @media (max-width: 840px)  {
@@ -259,4 +331,59 @@ h1  {
     grid-gap: 1px;
     justify-content: center;
   }
+
+  .foot-container  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-nav  {
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  table  {
+    width: 370px;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  .store-hours  {
+    margin-top: 0;
+  }
+  
+  .logo-wrapper  {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .foot-logo  {
+    height: 20px;
+    padding-right: 20px;
+      }
+  
+  .foot-img  {
+    height: 140px;
+    display: flex;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25%;
+    position: relative;
+    justify-content: flex-end;
+    bottom: 50px;
+  }
+  
+  .foot-nav a  {
+    padding: 0px;
+  }
+  
 }
+
+

@@ -150,6 +150,7 @@ form  {
   color: antiquewhite;
   display: flex;
   flex-direction: column;
+  font-weight: 200;
 }
 
 .info-title  {
@@ -222,5 +223,285 @@ p  {
   margin: auto;
   border-bottom: 1pt solid antiquewhite;
   margin-bottom: 20px;
+}
+
+footer  {
+  background-color: black;
+}
+
+.foot-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+
+
+}
+
+.foot-nav  {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.foot-nav a  {
+  font-weight: 100;
+}
+
+.store-hours  {
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+h3  {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+table  {
+  font-family: 'Arimo', sans-serif;
+  width: 400px;
+}
+
+.foot-logo  {
+  height: 40px;
+  align-items: ;
+}
+
+.foot-img  {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25%;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
+
+}
+
+.follow-us  {
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+.icons  {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 840px)  {
+
+  .content  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info  {
+    padding-bottom: 10px;
+  }
+
+  header  {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: auto;
+    grid-template-rows: 50% 50%;
+    height: 80px;
+  }
+
+  
+  .nav-1 {
+    display: flex;
+    justify-content: space-around;  
+  }
+
+  .nav-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .head-logo  {
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+    padding-right: 15px;
+  }
+
+  a  {
+    color: white;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .head-logo img  {
+    background-color: blanchedalmond;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25%;
+    height: 100%;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .contact-info  {
+    padding-bottom: 60px;
+    justify-content: space-between;
+    
+    
+  }
+
+  .ul  {
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .info-title  {
+    width: 280px;
+    
+  }
+
+  .address  {
+    margin-bottom: 10px;
+  }
+
+  .phone  {
+    margin-bottom: 10px;
+  }
+
+  
+  form  {
+    width: 310px;
+  }
+
+  .info-title  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 320px;
+    font-weight: 300;
+  }
+  
+  h1  {
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+
+  }
+
+  .main-title h2  {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: black;
+    border-radius: 2.5%;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+  }
+
+  .main-title  {
+    height: 170px;
+    padding-bottom: 0;
+  }
+  
+  .email  {
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+  .phone  {
+    grid-row: initial;
+    grid-column: initial;
+    margin: auto;
+    
+  }
+
+  .section-2 p  {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 0;
+    
+  }
+  
+  .section-2 li  {
+    font-size: 14px;
+  }
+}
+
+.foot-container  {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-nav  {
+  flex-direction: column;
+  padding-left: 30px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+table  {
+  width: 370px;
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.store-hours  {
+  margin-top: 0;
+}
+
+.logo-wrapper  {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.foot-logo  {
+  height: 20px;
+  padding-right: 20px;
+    }
+
+.foot-img  {
+  height: 140px;
+  display: flex;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25%;
+  position: relative;
+  justify-content: flex-end;
+  bottom: 50px;
+}
+
+.foot-nav a  {
+  padding: 0px;
 }
 
